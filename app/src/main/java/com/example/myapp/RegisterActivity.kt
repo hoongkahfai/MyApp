@@ -21,6 +21,7 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
         CreateAccountButton = findViewById<View>(R.id.register_btn) as Button
         InputName = findViewById<View>(R.id.register_username_input) as EditText
         InputPhoneNumber = findViewById<View>(R.id.register_phone_number_input) as EditText
