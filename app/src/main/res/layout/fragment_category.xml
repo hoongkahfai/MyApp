@@ -5,12 +5,15 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_red_light"
     >
-
-    <TextView
+    
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="This is content on fragment category.xml"
-        android:textSize="30sp"
-        />
+        android:id="@+id/myrecyclerview">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
 
 </RelativeLayout>
