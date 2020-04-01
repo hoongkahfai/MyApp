@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category"
+            android:title="Category"/>
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="Cart"/>
+    </group>
+
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+</menu>
